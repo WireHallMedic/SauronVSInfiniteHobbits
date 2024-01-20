@@ -1,4 +1,4 @@
-import RNG
+import rng
 
 class Sauron:
    

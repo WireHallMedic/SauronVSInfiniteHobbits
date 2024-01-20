@@ -9,3 +9,6 @@ class GameRecord:
    
    def register_ending_turn(self, turn_num):
       self.ending_turn = turn_num
+   
+   def __str__(self):
+      return "{} turns, {} kills".format(self.ending_turn, self.dead_hobbits)
