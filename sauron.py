@@ -12,12 +12,12 @@ class Sauron:
    def one_ring_save(self):
       """ Returns true if saved, false if not"""
       if one_ring_save():
-         return true
+         return True
       # on a failed roll, spend might to add one
       if self.might > 0:
          self.might -= 1
-         return true
-      return false
+         return True
+      return False
    
    def apply_wound(self):
       # take a wound if it's not the last one

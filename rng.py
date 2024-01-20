@@ -17,6 +17,7 @@ def _num_of_successes(rolls, target):
    for roll in range(rolls):
       if _roll_1d6() >= target:
          successes += 1
+   return successes
 
 def one_ring_save():
    return _roll_1d6() != 1

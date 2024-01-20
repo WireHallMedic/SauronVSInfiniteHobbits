@@ -10,7 +10,7 @@ class Simulation:
    
    def run(self):
       turn_number = 0
-      while not sauron.is_dead():
+      while not self.sauron.is_dead():
          turn_number += 1
          if sauron_fight_roll() >= hobbit_fight_roll():
             self.sauron_attack()
