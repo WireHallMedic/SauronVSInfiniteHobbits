@@ -1,4 +1,4 @@
-import rng
+from rng import *
 
 class Sauron:
    
@@ -11,7 +11,7 @@ class Sauron:
    
    def one_ring_save(self):
       """ Returns true if saved, false if not"""
-      if RNG.one_ring_save():
+      if one_ring_save():
          return true
       # on a failed roll, spend might to add one
       if self.might > 0:

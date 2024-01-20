@@ -1,6 +1,6 @@
-import rng
-import sauron
-import game_record
+from rng import *
+from sauron import *
+from game_record import *
 
 class Simulation:
 
