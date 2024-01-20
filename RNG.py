@@ -18,6 +18,9 @@ def _num_of_successes(rolls, target):
       if _roll_1d6() >= target:
          successes += 1
 
+def one_ring_save():
+   return _roll_1d6() != 1
+
 def sauron_fight_roll():
    return _fight_roll(4)
 
